@@ -1,0 +1,87 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Jan  7 22:53:55 2024
+# Process ID: 11224
+# Current directory: C:/Users/Burak/Desktop/temel_imge_isleme/temel_imge_isleme
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13884 C:\Users\Burak\Desktop\temel_imge_isleme\temel_imge_isleme\temel_imge_isleme.xpr
+# Log file: C:/Users/Burak/Desktop/temel_imge_isleme/temel_imge_isleme/vivado.log
+# Journal file: C:/Users/Burak/Desktop/temel_imge_isleme/temel_imge_isleme\vivado.jou
+# Running On: DESKTOP-OLPRCGB, OS: Windows, CPU Frequency: 2994 MHz, CPU Physical cores: 12, Host memory: 7968 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Burak/Desktop/temel_imge_isleme/temel_imge_isleme/temel_imge_isleme.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+source tb_temel_imge_isleme.tcl
+close_sim
+launch_simulation
+source tb_temel_imge_isleme.tcl
+add_force {/tb_temel_imge_isleme/temel_imge_isleme_map/in_islem} -radix bin {000 0ns}
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+run all
+run all
+run all
+close_sim
+launch_simulation
+source tb_temel_imge_isleme.tcl
+add_force {/tb_temel_imge_isleme/temel_imge_isleme_map/in_islem} -radix bin {000 0ns}
+close_sim

@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../temel_imge_isleme.srcs/sources_1/new/ornekler_paket.vhd" \
+"../../../../temel_imge_isleme.srcs/sources_1/new/block_ram.vhd" \
+"../../../../temel_imge_isleme.srcs/sources_1/new/temel_imge_isleme.vhd" \
+"../../../../temel_imge_isleme.srcs/sim_1/new/tb_temel_imge_isleme.vhd" \
+
+# Do not sort compile order
+nosort

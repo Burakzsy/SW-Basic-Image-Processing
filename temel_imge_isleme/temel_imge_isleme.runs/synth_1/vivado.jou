@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Jan  7 23:16:02 2024
+# Process ID: 3716
+# Current directory: C:/Users/Burak/Desktop/temel_imge_isleme/temel_imge_isleme/temel_imge_isleme.runs/synth_1
+# Command line: vivado.exe -log temel_imge_isleme.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source temel_imge_isleme.tcl
+# Log file: C:/Users/Burak/Desktop/temel_imge_isleme/temel_imge_isleme/temel_imge_isleme.runs/synth_1/temel_imge_isleme.vds
+# Journal file: C:/Users/Burak/Desktop/temel_imge_isleme/temel_imge_isleme/temel_imge_isleme.runs/synth_1\vivado.jou
+# Running On: DESKTOP-OLPRCGB, OS: Windows, CPU Frequency: 2994 MHz, CPU Physical cores: 12, Host memory: 7968 MB
+#-----------------------------------------------------------
+source temel_imge_isleme.tcl -notrace
